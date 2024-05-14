@@ -1,0 +1,90 @@
+.header {
+  padding: 1rem;
+
+  .container {
+    margin: auto;
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+    .left {
+      display: flex;
+      align-items: center;
+      gap: 3rem;
+
+      .title {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        gap: 0.2rem;
+
+        h1 {
+          flex-direction: column;
+          display: flex;
+          align-items: baseline;
+          font-size: 2.25rem;
+          line-height: 2.5rem;
+
+          .firstTitle {
+            font-weight: 700;
+            color: #e75437;
+          }
+
+          .secondTitle {
+            font-weight: 400;
+            color: #5d5c5c;
+          }
+        }
+
+        p {
+          font-size: 0.75rem;
+          line-height: 1rem;
+          font-weight: 300;
+          text-transform: uppercase;
+          color: #5d5c5c;
+        }
+      }
+
+      .ul {
+        display: flex;
+        gap: 2rem;
+        list-style-type: none;
+
+        .link {
+          all: unset;
+          font-size: 1rem;
+          line-height: 1.5rem;
+          font-weight: 400;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .right {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+
+      .contact {
+        all: unset;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 400;
+        cursor: pointer;
+      }
+
+      button {
+        all: unset;
+        padding: 0.8rem 1.2rem;
+        border-radius: 9999px;
+        background: #e75437;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 400;
+        color: #ffffff;
+      }
+    }
+  }
+}
