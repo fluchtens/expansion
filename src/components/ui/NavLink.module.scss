@@ -1,0 +1,17 @@
+.link {
+  all: unset;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e75336;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: 1px solid #e75336;
+}
+
+.inactive {
+  border: none;
+}

@@ -9,10 +9,10 @@
     align-items: center;
     gap: 1rem;
 
-    .left {
+    .primary {
       display: flex;
       align-items: center;
-      gap: 3rem;
+      gap: 2.5rem;
 
       img {
         width: 184.2px;
@@ -23,27 +23,19 @@
         display: flex;
         gap: 2rem;
         list-style-type: none;
-
-        .link {
-          all: unset;
-          font-size: 1rem;
-          line-height: 1.5rem;
-          font-weight: 400;
-          cursor: pointer;
-        }
       }
     }
 
-    .right {
+    .secondary {
       display: flex;
       align-items: center;
-      gap: 2rem;
+      gap: 1.5rem;
 
       .contact {
         all: unset;
-        font-size: 1rem;
-        line-height: 1.5rem;
-        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 500;
         cursor: pointer;
       }
 
@@ -52,10 +44,11 @@
         padding: 0.8rem 1.2rem;
         border-radius: 9999px;
         background: #e75437;
-        font-size: 1rem;
-        line-height: 1.5rem;
-        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 500;
         color: #ffffff;
+        cursor: pointer;
       }
     }
   }
