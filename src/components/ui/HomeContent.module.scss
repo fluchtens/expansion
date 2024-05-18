@@ -1,0 +1,50 @@
+.container {
+  margin-top: 6rem;
+  max-width: 440px;
+  flex-direction: column;
+  display: flex;
+  gap: 2rem;
+
+  h1 {
+    font-size: 40px;
+    line-height: 48.76px;
+    font-weight: 500;
+    color: #272727;
+
+    span {
+      color: #e75437;
+    }
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #5d5c5c;
+
+    span {
+      font-weight: 600;
+    }
+  }
+
+  button {
+    all: unset;
+    margin-right: auto;
+    padding: 0.8rem 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 9999px;
+    background: #e75336;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #ffffff;
+    transition: background 0.3 ease;
+    cursor: pointer;
+
+    &:hover {
+      background: #cc4326;
+    }
+  }
+}
