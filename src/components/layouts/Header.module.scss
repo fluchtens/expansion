@@ -49,6 +49,11 @@
         font-weight: 500;
         color: #ffffff;
         cursor: pointer;
+        transition: background 0.3 ease;
+
+        &:hover {
+          background: #cc4326;
+        }
       }
     }
   }
