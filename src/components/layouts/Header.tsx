@@ -9,7 +9,9 @@ export const Header = async () => {
     <header className={styles.header}>
       <div className={styles.container}>
         <div className={styles.primary}>
-          <img src="/logo.svg" alt="logo.svg" />
+          <Link href="/">
+            <img src="/logo.svg" alt="logo.svg" />
+          </Link>
           <ul className={styles.ul}>
             <NavLink href="/" name="Bienvenue" />
             <NavLink href="/metiers" name="Nos métiers" />
