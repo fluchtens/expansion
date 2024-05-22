@@ -1,9 +1,11 @@
+@import "../styles/constants";
+
 .title {
   margin-top: 6rem;
   font-size: 40px;
   line-height: 48.76px;
   font-weight: 500;
-  color: #272727;
+  color: $foreground;
 }
 
 @media (max-width: 768px) {
