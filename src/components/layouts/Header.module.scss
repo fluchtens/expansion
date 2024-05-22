@@ -14,15 +14,25 @@
       align-items: center;
       gap: 2.5rem;
 
-      img {
-        width: 184.2px;
-        height: 81.26px;
+      .mainLink {
+        img {
+          width: 184.2px;
+          height: 81.26px;
+        }
       }
 
-      .ul {
+      .navBtn {
+        display: none;
+      }
+
+      .navList {
         display: flex;
         gap: 2rem;
         list-style-type: none;
+      }
+
+      .navListMenu {
+        display: none;
       }
     }
 
@@ -53,6 +63,51 @@
 
         &:hover {
           background: #cc4326;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    .container {
+      .primary {
+        .mainLink {
+          display: none;
+        }
+
+        .navBtn {
+          all: unset;
+          display: block;
+          width: 1.5rem;
+          height: 1.5rem;
+          cursor: pointer;
+
+          .navBtnIcon {
+            width: 100%;
+            height: 100%;
+            color: #272727;
+          }
+        }
+
+        .navList {
+          display: none;
+        }
+
+        .navListMenu {
+          position: absolute;
+          z-index: 9999;
+          width: 100%;
+          padding: 1rem;
+          top: 4rem;
+          left: 0;
+          flex-direction: column;
+          display: flex;
+          align-items: flex-start;
+          gap: 1.5rem;
+          background: #ffffff;
+          list-style-type: none;
         }
       }
     }
