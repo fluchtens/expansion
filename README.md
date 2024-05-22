@@ -1,2 +1,2 @@
 # expansion
-Expansion recruitment test in Next.js.
+Expansion landing page in Next.js, SCSS and GSAP.
