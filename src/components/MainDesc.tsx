@@ -2,9 +2,9 @@
 
 import gsap from "gsap";
 import { useEffect, useRef } from "react";
-import styles from "./HomeContent.module.scss";
+import styles from "./MainDesc.module.scss";
 
-export const HomeContent = () => {
+export const MainDesc = () => {
   const containerRef = useRef(null);
 
   useEffect(() => {

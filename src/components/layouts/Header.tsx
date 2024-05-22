@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
-import { NavLink } from "../ui/NavLink";
+import { NavLink } from "../NavLink";
 import styles from "./Header.module.scss";
 
 export const Header = () => {
