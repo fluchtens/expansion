@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
@@ -34,7 +35,7 @@ export const Header = () => {
       <div className={styles.container}>
         <div className={styles.primary} ref={navMenuRef}>
           <Link href="/" className={styles.mainLink}>
-            <img src="/logo.svg" alt="logo.svg" />
+            <Image src="/logo.svg" alt="logo.svg" width={0} height={0} />
           </Link>
           <button className={styles.navBtn} onClick={toggleNavMenu}>
             <AiOutlineMenu className={styles.navBtnIcon} />

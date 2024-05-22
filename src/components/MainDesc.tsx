@@ -1,6 +1,7 @@
 "use client";
 
 import gsap from "gsap";
+import Image from "next/image";
 import { useEffect, useRef } from "react";
 import styles from "./MainDesc.module.scss";
 
@@ -28,7 +29,7 @@ export const MainDesc = () => {
         développer ou confirmer leur présence en ligne.
       </p>
       <button>
-        <img src="./rocket_icon.svg" alt="rocket_icon.svg" />
+        <Image src="./rocket_icon.svg" alt="rocket_icon.svg" width={17.48} height={18.36} />
         Faites le test sans plus tarder
       </button>
     </div>
